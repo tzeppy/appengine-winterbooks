@@ -1,0 +1,32 @@
+
+#chimp_fb {
+    float: right;
+    width: 365px;
+    padding: 0 0 15px 0;
+    margin: 10px 0 10px 10px;
+    background: #555;
+    color: #FFF;
+}
+
+#mc_embed_signup {
+    clear: left;
+    font-weight: normal;
+    font-family: Gorgia;
+    width: 350px;
+    color: #FFF;
+}
+
+#fb {
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    color: #FFF;
+}
+
+.fb-like {
+    top: 4px;
+}
+
+#winter_image {
+    width: 100%;
+    margin: 0 0 0px 0px;
+}

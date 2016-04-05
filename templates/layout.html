@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Winterbooks </title>
+    	<link rel="stylesheet" type="text/css" charset="utf-8" href="{{ url_for('static', filename='css/site.css') }}">	
+	{% block head %} {% endblock %}
+	</head>
+	<body>
+		<div id="banner">
+		    <img id="banner_image" src="{{ url_for('static', filename='images/Head4webnew.png') }}"/>
+
+		    <div id="menu">
+		      <ul>
+		        <li><a href="/">HOME</a></lu>
+		        <li><a href="/books">BOOKS</a></lu>
+		        <li><a href="/about">ABOUT</a></lu>
+		        <li><a href="/blogs">BLOGS</a></lu>
+				<li><a href="/ava">AVA</a></lu>
+		        <!--li><a href="news.php">NEWS</a></lu-->
+		        <!--li><a href="contact.php">CONTACT</a></lu-->
+		      </ul>
+		    </div>
+		</div>
+		{% block body %} {% endblock %}
+	    </div id="footer"></div>
+	</body>
+</html>
