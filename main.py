@@ -35,6 +35,11 @@ def support_authors():
 	return flask.render_template('support_authors.html')
 
 
+@app.route('/fund_ava.php')
+def fund_ava():
+    return flask.render_template('fund_ava.html')
+
+
 @app.errorhandler(404)
 def page_not_found(e):
     """Return a custom 404 error."""
