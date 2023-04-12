@@ -16,7 +16,7 @@ Also points to project: artistannamir
 
 3. To deploy the application:
 
-% gcloud config set project winterbooks
+% gcloud config set project festive-flight-109023
 
 % gcloud app deploy
 
