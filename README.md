@@ -3,16 +3,17 @@
 Make sure gcloud init has been called to set up google credentials.
 Also points to project: artistannamir
 
-### Using pyenv 3.10.5..
-% pyenv install 3.10.5
-% pyenv local 3.10.5
+### Using pyenv 3.12
+% pyenv install 3.12
+% pyenv local 3.12
 % python -m venv env
 % source env/bin/activate
 % pip install -r requirements.txt
 
 2. Run locally:
 
-% main.py
+% gunicorn -b 127.0.0.1:8080 main:app
+# (or simply: % python main.py)
 
 3. To deploy the application:
 
