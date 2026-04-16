@@ -30,3 +30,16 @@
     width: 100%;
     margin: 0 0 0px 0px;
 }
+
+@media (max-width: 768px) {
+    #chimp_fb {
+        float: none;
+        width: 100%;
+        margin: 15px 0;
+        box-sizing: border-box;
+    }
+    #mc_embed_signup {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

@@ -5,3 +5,13 @@
     width: 365px;
     margin: 0px 0 10px 10px;
 }
+
+@media (max-width: 768px) {
+    #ava_image {
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+        max-width: 100%;
+        height: auto;
+    }
+}
